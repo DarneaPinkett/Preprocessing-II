@@ -240,6 +240,11 @@ a {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    flex-direction: column;
+  }
+}
 .home .content-pick .btn {
   color: white;
   background-color: #00997a;
