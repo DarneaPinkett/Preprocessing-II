@@ -191,6 +191,12 @@ a {
   justify-content: space-between;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .home .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .home .main-content {
   border-bottom: 2px dashed #C0C0C0;
 }
@@ -239,11 +245,6 @@ a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-@media (max-width: 500px) {
-  .home .content-pick .destination {
-    flex-direction: column;
-  }
 }
 .home .content-pick .btn {
   color: white;
